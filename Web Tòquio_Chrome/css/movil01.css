@@ -1,0 +1,286 @@
+
+
+@media only screen and (max-width: 768px) and (orientation:portrait)
+		
+{
+		body {
+			background-image: url("../img/dark_embroidery.jpg");
+			font-family: Helvetica, Arial, Sans-serif;
+			margin: 0;
+			padding: 0;
+
+		}
+
+
+	div {
+		background-color:#FFFAFA;
+		margin: 10px;
+		border:solid 4px red;		
+		padding: 0px;
+
+
+		
+	}
+
+
+	 #cap {
+			height:200px;			
+			margin: 10px auto 10px auto;
+			border-radius: 25px;
+			box-shadow: 4px 4px 12px black;
+			background-image:url("../img/cabecera.jpg");
+			background-size:250%;
+			background-position:center;		
+			display:block;
+
+		}
+
+
+	 #peu {
+			height:276px;
+			width: 1280px;			
+			margin: 10px auto 10px auto;
+			border-radius:0;
+			box-shadow: 4px 4px 12px black;
+			background-image:url("../img/tokio.jpg");
+			
+	}	
+
+	#contenidor {
+				
+		margin:0 auto;
+		box-shadow: 4px 4px 12px black;
+		background-image:url("../img/dark_embroidery.jpg");
+		border-radius: 25px;
+	}
+
+	#primer {
+		width:87%;
+		background-size:150%;
+		background-position: center;
+		border-radius: 10px 10px 0 0;
+		box-shadow: 4px 4px 12px black;
+		background-image:url("../img/japon.jpg");
+		border-radius: 10px;
+		padding: 10px;			
+	}
+
+	#segon {
+		width:87%;			
+		box-shadow: 4px 4px 12px black;
+		background-image:url("../img/debut_light.jpg");
+		border-radius: 10px;
+		padding: 10px;
+	}
+	#tercer {		
+			padding: 10px;
+			border-radius: 10px;
+			box-shadow: 4px 4px 12px black;
+			background-image:url("../img/debut_light.jpg");
+			padding: 10px;
+	}
+
+	#tercer img{
+		width: 100%;
+		height: auto;
+		border: solid #000 2px;
+	}
+
+	header label{
+		display: block;
+		width: 30px;
+		height: 30px;
+		padding: 10px;
+		border-right: 1px solid #fff;
+
+
+	}
+
+	
+
+	.contenedor{
+		background-color: rgba(0,0,0,1);
+		border: none;
+	 }
+
+	.menu{
+		position: absolute;
+		background: red;
+		width: 50%; 
+		margin-left: -53%;
+		transition: all 0.3s;
+		text-decoration: none;
+	}
+
+	.menu ul{
+		flex-direction: column;
+		margin: 0;
+		list-style: none;
+		padding: 0;
+		display: flex;
+	}
+
+	.menu li{
+		border-top: 1px solid #fff;
+		display: block;
+		padding: 15px 20px;
+		color: #fff;
+		
+	}
+
+	.menu li a{
+		text-decoration: none;
+		color: white;
+
+		
+	}
+	#btn-menu:checked ~ .menu {
+		margin: 0;
+		
+	}
+
+		
+
+		}
+
+
+
+
+@media only screen and (max-width: 768px) and (orientation:landscape)
+		
+{
+		body {
+			background-image: url("../img/dark_embroidery.jpg");
+			font-family: Helvetica, Arial, Sans-serif;
+			margin: 0;
+			padding: 0;
+
+		}
+
+
+	div {
+		background-color:#FFFAFA;
+		margin: 10px;
+		border:solid 4px red;		
+		padding: 0px;
+
+
+		
+	}
+
+
+	 #cap {
+			height:200px;			
+			margin: 10px auto 10px auto;
+			border-radius: 25px;
+			box-shadow: 4px 4px 12px black;
+			background-image:url("../img/cabecera.jpg");
+			background-size:250%;
+			background-position:center;		
+			display:block;
+
+		}
+
+
+	 #peu {
+			height:276px;
+			width: 1280px;			
+			margin: 10px auto 10px auto;
+			border-radius:0;
+			box-shadow: 4px 4px 12px black;
+			background-image:url("../img/tokio.jpg");
+			
+	}	
+
+	#contenidor {
+				
+		margin:0 auto;
+		box-shadow: 4px 4px 12px black;
+		background-image:url("../img/dark_embroidery.jpg");
+		border-radius: 25px;
+	}
+
+	#primer {
+		width:87%;
+		background-size:90%;
+		background-position: center;
+		border-radius: 10px 10px 0 0;
+		box-shadow: 4px 4px 12px black;
+		background-image:url("../img/japon.jpg");
+		border-radius: 10px;
+		padding: 10px;			
+	}
+
+	#segon {
+		width:87%;			
+		box-shadow: 4px 4px 12px black;
+		background-image:url("../img/debut_light.jpg");
+		border-radius: 10px;
+		padding: 10px;
+	}
+	#tercer {		
+			padding: 10px;
+			border-radius: 10px;
+			box-shadow: 4px 4px 12px black;
+			background-image:url("../img/debut_light.jpg");
+			padding: 10px;
+	}
+
+	#tercer img{
+		width: 100%;
+		height: auto;
+		border: solid #000 2px;
+	}
+
+	header label{
+		display: block;
+
+
+	}
+
+	
+
+	.contenedor{
+		background-color: rgba(0,0,0,1);
+		border: none;
+	 }
+
+	.menu{
+		position: absolute;
+		background: red;
+		width: 50%; 
+		margin-left: -53%;
+		transition: all 0.3s;
+		text-decoration: none;
+	}
+
+	.menu ul{
+		flex-direction: column;
+		margin: 0;
+		list-style: none;
+		padding: 0;
+		display: flex;
+	}
+
+	.menu li{
+		border-top: 1px solid #fff;
+		display: block;
+		padding: 15px 20px;
+		color: #fff;
+		
+	}
+
+	.menu li a{
+		text-decoration: none;
+		color: white;
+
+		
+	}
+	#btn-menu:checked ~ .menu {
+		margin: 0;
+		
+	}
+
+		
+
+		}
